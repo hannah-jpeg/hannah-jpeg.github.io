@@ -1,0 +1,171 @@
+:root {
+  --primary-color: #BBD0DC;
+  --blue1: #778DA9;
+  --blue2: #415A77;
+  --blue3: #1B263B;
+  --blue4: #0D1B2A;
+  --secondary-color: #FFFDF5;
+  --green1: #f4e4dc;
+  --green2: #e8d4d6;
+  --green3: #d4b7b3;
+  --green4: #c79886;
+}
+
+body {
+  font-family: "Monaco";
+  background: var(--secondary-color);
+  margin: 0px;
+  /*   font-family: "Arial"; */
+}
+
+h1 {
+  /*   font-weight: 900; */
+  color: var(--green4);
+  font-family:"Monaco";
+  font-weight: 900;
+  padding: 2px 2px
+}
+
+.btn-primary {
+  padding: 10px 30px;
+  background: var(--green4);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  /* cursor: pointer; */
+  /*   border-width: 1px; */
+}
+
+.btn-primary:hover {
+  background: var(--green3);
+  color: black;
+}
+
+.med-img {
+  width: 6vw;
+  height: 4vw;
+  padding: 0px 12px
+}
+.nav-img {
+  width: 5rem;
+  height: auto;
+  padding: 0 10px;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+.nav-img:hover {
+  opacity: 0.5;
+  /* transition: background-color 0.5s ease; */
+}
+
+/* .navbar-dark {
+  opacity: 0.3;
+} */
+
+.bg-dark {
+  background-color: rgba(22, 46, 32, 0.535) !important;
+}
+
+
+.intro {
+  padding: 10px 30px;
+  margin: auto;
+  max-width: 700px;
+
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px 50px;  
+  /* box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.main-header {
+  height: 30vh;
+  background: url("https://www.nippon.com/en/ncommon/contents/japan-data/2034215/2034215.jpg");
+  /* background: url("https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-grid {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+
+body{
+  background: #f5f1e4;
+  font-family: "monaco";
+  margin: 0px;
+}
+
+.resume{
+  margin: 3px
+}
+
+.other-header {
+  height: 10vh;
+  background: #d4b7b3;
+}
+
+.one-img {
+  height: 8vh;
+  padding: 10px 5px;
+}
+
+.img1-grid {
+  display: flex;
+  padding-bottom: 0px;
+}
+
+h1{
+  color: #c79886;
+  font-weight: 900
+  
+}
+
+h4{
+  font-family: "Arial";
+  font-weight: 900;
+}
+
+h5{
+  font-family: "Arial";
+  font-weight: 400;
+}
+
+.card1{
+  background: white;
+  width: 700px;
+  padding: 20px 50px;
+  border-radius: 20px;
+  margin:5px 50px;
+
+}
+
+.card-2{
+  background: white;
+  width: 500px;
+  padding: .1px 100px;
+  border-radius: 15px;
+  align-items: center;
+  margin: 0px 35vh;
+}
+
+.contents{
+  display: flex;
+}
+
+.contact{
+  display: flex;
+}
+
+
+.ot-img{
+  width: 80px;
+  height: 9vw;
+  padding: 9px
+}
