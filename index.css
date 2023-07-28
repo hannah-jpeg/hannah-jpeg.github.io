@@ -140,9 +140,9 @@ h5{
 .card1{
   background: white;
   width: 700px;
-  padding: 20px 50px;
+  padding: 20px 55px;
   border-radius: 20px;
-  margin:5px 50px;
+  margin:5px 350px;
 
 }
 
@@ -166,6 +166,7 @@ h5{
 
 .ot-img{
   width: 80px;
-  height: 9vw;
+  height: 6vw;
   padding: 9px
 }
+
