@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+    <html lang="en">
+        
+    <!------------------------------------------
+    HEAD
+        This is where you put:
+        (1) basic info about your devices
+        (2) title (tab title)
+        (3) links (e.g., to fonts)
+        (4) CSS links
+    -------------------------------------------->
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Title of Project -->
+        <title>Debate Motion Argument Generator</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Open Sans Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+        <!-- Personal CSS -->
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+
+    
+    <!------------------------------------------
+    BODY
+        This is where you put your HTML content.
+    -------------------------------------------->
+    <body>
+        <div id="chat-window">
+
+            <div class="main-title">Debate Motion Argument Generator</div>
+
+            <!-- Input API key -->
+            <div class="top-inputs">
+                <form id="api-form">
+                    <input type="text" class="round-rect" id="api-input" autocomplete="off" placeholder="your api key here" required />
+                    <button type="submit" id="api-submit" class="round-rect">Submit</button>
+                </form>
+            </div>
+
+            <!-- After API key input, unlock chat with chatbot -->
+            <div class="bottom-inputs">
+                <div id="chat-messages"></div>
+                <form id="chat-form">
+                    <input type="text" class="round-rect" id="chat-input" autocomplete="off" placeholder="motion here" required />
+                    <button type="submit" class="round-rect">Send</button>
+                </form>
+            </div>
+        </div>
+
+        <!------------------------------------------
+            Remember to link your JS BEFORE the body ends.
+            NOTE: Order matters!
+        -------------------------------------------->
+        <!-- node.js Axios, for API HTTP requests -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <!-- Bootstrap + Popper Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!-- Personal JS -->
+        <script src="scripts/index.js"></script>
+    </body>
+
+    </html>
