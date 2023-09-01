@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: "Monaco";
+  font-family: "";
   background: var(--secondary-color);
   margin: 0px;
   /*   font-family: "Arial"; */
@@ -21,14 +21,14 @@ body {
 h1 {
   /*   font-weight: 900; */
   color: var(--green4);
-  font-family:"Monaco";
+  font-family:"";
   font-weight: 900;
   padding: 2px 2px
 }
 
 .btn-primary {
   padding: 10px 30px;
-  background: var(--green4);
+  background: #cca8a3;
   color: white;
   border: none;
   border-radius: 15px;
@@ -38,7 +38,21 @@ h1 {
 
 .btn-primary:hover {
   background: var(--green3);
-  color: black;
+  color: white;
+}
+.btn-secondary {
+  padding: 10px 30px;
+  background: #cca8a3;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  /* cursor: pointer; */
+  /*   border-width: 1px; */
+}
+
+.btn-secondary:hover {
+  background: var(--green3);
+  color: white;
 }
 
 .med-img {
@@ -83,7 +97,7 @@ h1 {
 
 .main-header {
   height: 30vh;
-  background: url("https://www.nippon.com/en/ncommon/contents/japan-data/2034215/2034215.jpg");
+  background: url("https://i.pinimg.com/564x/17/86/68/178668dd7ea50f42a40e5c5f201a9b5c.jpg");
   /* background: url("https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"); */
   background-position: center;
   background-size: cover;
@@ -122,7 +136,7 @@ body{
 }
 
 h1{
-  color: #c79886;
+  color: #cca8a3;
   font-weight: 900
   
 }
@@ -170,3 +184,56 @@ h5{
   padding: 9px
 }
 
+
+.intro1 {
+  padding: 10px 30px;
+  margin: center;
+  max-width: 700px;
+
+}
+
+.card1 {
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 30px 50px;  
+  /* box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2); */
+}
+
+/* Centered content CSS */
+.centered-content {
+  display: flex;
+  align-items: center;
+}
+.centered-content i {
+  margin-right: 20px; /* Add some space between the icon and text */
+}
+.contact, .contact a {
+  color: var(--green5);
+}
+.contact {
+  padding: 5px 0px;
+}
+.contact a:hover {
+  color: var(--green4);
+}
+
+.smaller-screen {
+  width: 80%;
+}
+
+.card3 {
+  background: white;
+  border-radius: 15px;
+  padding: 30px 50px;
+}
+
+h5 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: black;
+  font-family: "Monaco"
+}
+
+h3 {
+  padding: 10px 0px;
+}
